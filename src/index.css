@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Suzib yurish animatsiyasi *//* Muzlagan Oyna effekti (Dark Mode uchun) */
+.glass-panel {
+  background: rgba(20, 20, 30, 0.6); /* Qoramtir shaffof fon */
+  backdrop-filter: blur(12px);       /* Xiralashtirish */
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Ingichka chegara */
+  color: white; /* Hamma yozuv oq bo'lsin */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Inputlar uchun shaffof stil */
+.glass-input {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+}
+.glass-input:focus {
+  outline: none;
+  border-color: #3b82f6; /* Blue-500 */
+  background: rgba(255, 255, 255, 0.15);
+}
